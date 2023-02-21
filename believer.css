@@ -1,0 +1,163 @@
+body {
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 20%;
+}
+
+.monthIcon {
+  position: absolute;
+  right: 11%;
+  top: 0;
+  width: 55px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 0 0 40% 40%;
+  text-align: center;
+  background-color: rgb(55, 153, 55);
+  color: #ffffff;
+  display: flex;
+  flex-flow: column wrap;
+}
+.month {
+  margin-top: 0.2rem;
+  background-color: rgb(55, 153, 55);
+  /* text-align: center; */
+  border-radius: 0 0 50% 50%;
+}
+.date {
+  background-color: rgb(55, 153, 55);
+  /* text-align: center; */
+  border-radius: 0 0 50% 50%;
+}
+
+* {  
+  background-color: rgb(243, 240, 236);
+}
+
+h1 {
+  text-align: left;
+  font-size: 30px;
+  margin: 30px 0;
+  color: rgb(55, 153, 55);;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+p {
+margin-right: 20px;
+margin-left: 20px;
+line-height: 23px;
+text-align: justify;
+text-indent: 15px;
+margin-bottom: 20px;
+}
+
+ol, ul {
+  line-height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+legend {
+  border: 100px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+div.question {
+border: 2px solid rgba(187, 180, 180, 0.582);
+padding: 10px;
+margin-left: auto 100px;
+text-align: center;
+background-color: white;
+}
+
+.text-list {
+  line-height: 30px;
+  margin-top: 30px;
+  list-style-type: "\25b6\fe0e";
+}
+
+.method {
+  /* list-style: none; */
+  line-height: 40px;
+}
+
+.dialogue {
+  text-align: center ;
+  margin: 2em 0;
+  line-height: 30px;
+}
+
+.NextPage {
+  margin-top: 5px;
+  float: right;
+}
+
+.PreviousPage {
+  margin-top: 5px;
+  float: left;
+
+}
+
+button:hover {
+  background-color: lightgrey;
+  font-weight: 800;
+}
+
+
+
+/* Paginations */
+.pagination1 {
+	text-align:center;
+}
+.pagination1 li {
+	display:inline;
+	vertical-align:middle;
+}
+.pagination1 li a {
+	display:-moz-inline-stack;	/*FF2*/
+	display:inline-block;
+	vertical-align:top;
+	padding:4px;
+	margin-right:3px;
+	width:15px !important;
+	color:#000;
+	font:bold 12px tahoma;
+	border:1px solid #eee;
+	text-align:center;
+	text-decoration:none;
+	width /**/:26px;	/*IE 5.5*/
+
+}
+.pagination1 li a.now {
+	color:#fff;
+	background-color:#f40;
+	border:1px solid #f40;
+}
+.pagination1 li a:hover, .pagination1 li a:focus {
+	color:#fff;
+	border:1px solid #f40;
+	background-color:#f40;
+}
+
+.twoLine {
+  line-height: 20px;
+}
+
+li {
+  margin: 20px 0;
+}
